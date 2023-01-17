@@ -4,34 +4,36 @@ const projects = [
         link: 'https://asantowasso.github.io/Group3-projectMoonbucks/',
         image: '../../public/images/image1.png',
         title: 'Moonbucks',
-        description: ''
+        description: 'Static website for our fictional coffee shop, Moonbucks!'
     },
     {
         id: 2,
-        link: '',
-        image: '../../public/images/image2.png',
+        link: 'https://pinkywiththebrain.github.io/weatherdashboard-challenge-6/',
+        image: './images/image2.png',
         title: 'Weather Dashboard',
-        description: ''
+        description: 'Check the weather all across the US.'
     },
     {
         id: 3,
-        link: '',
+        link: 'https://ripened-potatos.herokuapp.com/',
         image: '../../public/images/image3.png',
         title: 'Ripened Potatoes',
-        description: ''
+        description: 'A "bad" movie review site.'
     },
     {
         id: 4,
-        link: '',
+        link: 'https://rocky-peak-79033.herokuapp.com/',
         image: '../../public/images/image4.png',
         title: 'Text Editor App',
-        description: ''
+        description: 'Just another text editor...'
     },
     {
         id: 5,
-        link: '',
+        link: 'https://pinkywiththebrain.github.io/javascriptquiz-challenge-4.2/',
         image: '../../public/images/image5.png',
         title: 'Javascript Quiz',
-        description: ''
+        description: 'Test your Javascript knowledge!'
     },
 ]
+
+export default projects

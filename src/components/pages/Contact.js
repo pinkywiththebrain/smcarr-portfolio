@@ -1,19 +1,16 @@
 import React, { useState } from 'react';
 
 export default function Contact() {
- // Here we set two state variables for firstName and lastName using `useState`
  const [firstName, setFirstName] = useState('');
  const [lastName, setLastName] = useState('');
  const [email, setEmail] = useState('');
  const [message, setMessage] = useState('');
 
     const handleInputChange = (e) => {
-        // Getting the value and name of the input which triggered the change
         const { target } = e;
         const inputType = target.name;
         const inputValue = target.value;
     
-        // Based on the input type, we set the state of either email, username, and password
         if (inputType === 'firstName') {
           setFirstName(inputValue);
         } else if (inputType === 'lastName') {
@@ -26,10 +23,8 @@ export default function Contact() {
     };
 
     const handleFormSubmit = (e) => {
-        // Preventing the default behavior of the form submit (which is to refresh the page)
         e.preventDefault();
 
-        // Alert the user their first and last name, clear the inputs
         alert(`Thank you ${firstName}, your contact info has been submitted.`);
         setFirstName('');
         setLastName('');
