@@ -5,9 +5,8 @@ export default function Resume() {
     <div>
         <h1>Resume</h1>
         <h2>Sophia (Sophie) Carr</h2>
-            <p>(123)-456-7890
-            sophiemc99@gmail.com
-            </p>
+            <p>(123)-456-7890</p>
+            <p>sophiemc99@gmail.com</p>
         <h2>Skills</h2>
             <ol>
                 <li>HTML5, CSS, Javascript, Bootstrap</li>

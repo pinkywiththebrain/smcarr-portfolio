@@ -2,8 +2,9 @@ import React from 'react';
 
 export default function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <div className="navbar">
+    <ul className="navlinks">
+      <li>
         <a
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -12,7 +13,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
           About
         </a>
       </li>
-      <li className="nav-item">
+      <li>
         <a
           href="#portfolio"
           onClick={() => handlePageChange('Portfolio')}
@@ -21,7 +22,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li>
         <a
           href="#resume"
           onClick={() => handlePageChange('Resume')}
@@ -30,7 +31,7 @@ export default function NavTabs({ currentPage, handlePageChange }) {
           Resume
         </a>
       </li>
-      <li className="nav-item">
+      <li>
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
@@ -40,5 +41,6 @@ export default function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
   );
 }

@@ -33,10 +33,10 @@ export default function Contact() {
     };
 
  return (
-   <div>
-     <p>
+   <div className='contact-form'>
+     <h1>
        Hello {firstName} {lastName}
-     </p>
+     </h1>
      <form className="form">
        <input
          value={firstName}

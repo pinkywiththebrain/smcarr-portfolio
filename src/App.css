@@ -1,0 +1,234 @@
+:root {
+    --gray: #363034;
+    --cream: rgb(233, 227, 195);
+    --pink: #ffc0cb;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+body {
+    background-color: var(--gray);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    line-height: 1.5;
+    color: var(--cream);
+    width: 60%;
+    margin: 0% 20%;
+
+}
+
+/* header + navbar */
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: var(--pink);
+    color: var(--gray);
+    border-radius: 10px;
+}
+
+.navlinks {
+    cursor: pointer;
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a {
+    text-decoration: none;
+    color: var(--gray);
+}
+
+/* about section*/
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.about .profileimage {
+    width: 350px;
+
+}
+
+.about .profileimage img {
+    max-width: 100%;
+
+}
+
+.about .description {
+    width: 60%;
+
+}
+
+.about .description h2 {
+    margin: 20px;
+
+}
+
+.about .description p {
+    margin: 20px;
+}
+
+.indent {
+    text-indent: 30px;
+}
+
+/* projects section */
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: var(--pink);
+    background-color: var(--pink);
+    color: var(--gray);
+    margin: 2%;
+    width: 45%;
+    list-style: none;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.card h3 {
+    text-align: center;
+    padding: 3px;
+    font-weight: bold;
+    
+} 
+.card p {
+    text-align: center;
+    padding: 3px
+} 
+
+
+/* contact form + social media links*/
+
+/* .contactme {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactme section {
+    width: 50%;
+}
+
+.contact h2 {
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+}
+
+form label {
+    margin: 10px;
+}
+
+.text-input {
+    padding: 5px;
+    margin: 10px;
+}
+
+.text-input:hover {
+    box-shadow: 0 0 7px var(--pink);
+}
+
+.socials h2 {
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+}
+
+.socials ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    line-height: 30px;
+}
+
+.sociallinks li a {
+    text-decoration: none;
+    color: var(--pink);
+}
+
+.button {
+    margin-left: 15px;
+    padding: 1% 2%;
+    color: var(--gray);
+    background-color: var(--pink);
+    border: solid;
+    border-color: var(--cream);
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+} */
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 20%;
+}
+
+.form input {
+    margin-top: 10px;
+}
+
+.form button {
+    margin-top: 10px;
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    margin: 50px;
+}
+
+
+
+
+
+  @media only screen and (max-width: 1000px) {
+    .card {
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .contactme section {
+        width: 100%;
+    }
+  }

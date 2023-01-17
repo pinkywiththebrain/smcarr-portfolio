@@ -2,7 +2,7 @@ const projects = [
     {
         id: 1,
         link: 'https://asantowasso.github.io/Group3-projectMoonbucks/',
-        image: '../../public/images/image1.png',
+        image: './images/image1.png',
         title: 'Moonbucks',
         description: 'Static website for our fictional coffee shop, Moonbucks!'
     },
@@ -16,21 +16,21 @@ const projects = [
     {
         id: 3,
         link: 'https://ripened-potatos.herokuapp.com/',
-        image: '../../public/images/image3.png',
+        image: './images/image3.png',
         title: 'Ripened Potatoes',
         description: 'A "bad" movie review site.'
     },
     {
         id: 4,
         link: 'https://rocky-peak-79033.herokuapp.com/',
-        image: '../../public/images/image4.png',
+        image: './images/image4.png',
         title: 'Text Editor App',
         description: 'Just another text editor...'
     },
     {
         id: 5,
         link: 'https://pinkywiththebrain.github.io/javascriptquiz-challenge-4.2/',
-        image: '../../public/images/image5.png',
+        image: './images/image5.png',
         title: 'Javascript Quiz',
         description: 'Test your Javascript knowledge!'
     },
