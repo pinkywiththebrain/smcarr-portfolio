@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Portfolio({ projects }) {
     return (
-        <div className='projects' id='projects'>
-        <ul className=''>
+        <div>
+        <ul className='projects'>
           {projects.map((project) => (
             <li key={project.id} className='card'>
               <a href={project.link}><img src={project.image}></img></a>

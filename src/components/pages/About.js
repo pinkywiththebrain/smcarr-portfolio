@@ -1,10 +1,9 @@
 import React from 'react';
-// import image from './images/image0.png';
 
 export default function About() {
   return (
     <div className='about' id='id'>
-        {/* <img src={image} alt='' /> */}
+        <img src={process.env.PUBLIC_URL + '/images/image0.png'} alt='' className='profileimage'/>
       <div className='description'>
         <h1>About the Developer</h1>
         <p>

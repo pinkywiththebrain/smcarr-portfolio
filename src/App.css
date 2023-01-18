@@ -217,6 +217,12 @@ form label {
     margin: 50px;
 }
 
+.footer a {
+    color: #ffc0cb;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
 
 
 
