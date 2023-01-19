@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/smcarr-portfolio/static/css/main.11a7b72a.css",
+    "main.js": "/smcarr-portfolio/static/js/main.79e818f1.js",
+    "index.html": "/smcarr-portfolio/index.html",
+    "main.11a7b72a.css.map": "/smcarr-portfolio/static/css/main.11a7b72a.css.map",
+    "main.79e818f1.js.map": "/smcarr-portfolio/static/js/main.79e818f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11a7b72a.css",
+    "static/js/main.79e818f1.js"
+  ]
+}
