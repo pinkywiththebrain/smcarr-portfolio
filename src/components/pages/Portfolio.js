@@ -6,7 +6,7 @@ export default function Portfolio({ projects }) {
         <ul className='projects'>
           {projects.map((project) => (
             <li key={project.id} className='card'>
-              <img src={project.image} alt=''></img>
+              <img src={process.env.PUBLIC_URL + `${project.image}`} alt=''></img>
                 <h3>{`${project.title}`}</h3>
                 <p><a href={`${project.link}`}>Site Link</a></p>
                 <p><a href={`${project.github}`}>Github</a></p>
