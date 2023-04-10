@@ -30,14 +30,10 @@ iframe {
 
 /* header + navbar */
 
-.navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
 .navlinks {
     list-style: none;
+    display: flex;
+    justify-content: center;
 }
 
 .navlinks li {
@@ -45,7 +41,6 @@ iframe {
     background-color: var(--peach);
     color: var(--black);
     border-radius: 10px;
-    display: inline-block;
     margin: 0px 10px;
     padding: 10px 20px;
 }
@@ -72,11 +67,6 @@ iframe {
 
 }
 
-.about .profileimage img {
-    max-width: 100%;
-
-}
-
 .about .description {
     width: 60%;
 
@@ -88,7 +78,7 @@ iframe {
 }
 
 .about .description p {
-    margin: 20px;
+    margin: 10px;
 }
 
 .indent {

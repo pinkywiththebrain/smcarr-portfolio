@@ -31,13 +31,23 @@ export default function NavTabs({ currentPage, handlePageChange }) {
           Resume
         </a>
       </li>
-      <li>
+      {/* <li>
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
+        </a>
+      </li> */}
+      <li>
+        <a href="https://github.com/pinkywiththebrain">
+          Github
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/sophia-carr-03217b254/">
+          LinkedIn
         </a>
       </li>
     </ul>
