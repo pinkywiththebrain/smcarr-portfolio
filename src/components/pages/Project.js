@@ -9,11 +9,11 @@ const projects = [
     },
     {
         id: 2,
-        link:'https://pinkywiththebrain.github.io/weatherdashboard-challenge-6/',
-        github: 'https://github.com/pinkywiththebrain/weatherdashboard-challenge-6',
-        image: '/images/image2.png',
-        title: 'Weather Dashboard',
-        description: 'Check the weather all across the US.'
+        link:'https://young-island-68053.herokuapp.com',
+        github: 'https://github.com/allenmurfee/todo-list-app',
+        image: '/images/image6.png',
+        title: 'To-do List App',
+        description: 'A simple to-do list app for all your chores and projects.'
     },
     {
         id: 3,
@@ -41,11 +41,11 @@ const projects = [
     },
     {
         id: 6,
-        link:'https://www.youtube.com/watch?v=jK6mO0Um9Qo',
-        github: 'https://github.com/pinkywiththebrain/employee-tracker-challenge-12',
-        image: '/images/image6.png',
-        title: 'Employee Tracker',
-        description: 'Keep track of all your employees, their departments, and pay.'
+        link:'https://pinkywiththebrain.github.io/weatherdashboard-challenge-6/',
+        github: 'https://github.com/pinkywiththebrain/weatherdashboard-challenge-6',
+        image: '/images/image2.png',
+        title: 'Weather Dashboard',
+        description: 'Check the weather all across the US.'
     },
 ]
 
