@@ -11,6 +11,12 @@ export default function About() {
         
         <p className='indent'>Since completing my certificate, I have continued my studies independently, learning more coding languages such as C# and Python. I also take great interest in UI and UX design theory, which I have been studying independently as well. In my free time I have also been dabbling in game development, and I am currently working on a small platformer using GameMaker.
         </p>
+
+        <p>
+          Get in contact with me! <br></br>
+          <b>Email:</b> smcarrdev@gmail.com <br></br>
+          <b>Phone:</b> 804-357-2642
+        </p>
       </div>
     </div>
   );
