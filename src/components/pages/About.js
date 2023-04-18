@@ -14,7 +14,7 @@ export default function About() {
 
         <p>
           Get in contact with me! <br></br>
-          <b>Email:</b> smcarrdev@gmail.com <br></br>
+          <b>Email:</b> <a href="mailto: smcarrdev@gmail.com">smcarrdev@gmail.com</a> <br></br>
           <b>Phone:</b> 804-357-2642
         </p>
       </div>
